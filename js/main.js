@@ -86,6 +86,4 @@
 
     portfolioIsotope.isotope({ filter: $(this).data("filter") });
   });
-
-  // Pagination
 })(jQuery);
