@@ -151,9 +151,12 @@
             <div class="row justify-content-center">
               <!--Grid column-->
               <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="https://formsubmit.co/leniwysid@gmail.com"
-                  method="POST">
-
+                <form id="contact-form" name="contact-form"
+                  action="https://formsubmit.co/00f0251736013cd5e1c863ebdc40ac3b" method="POST">
+                  <!--Honeypot-->
+                  <input type="text" name="_honey" style="display: none;">
+                  <!--Disable Captcha-->
+                  <input type="hidden" name="_captcha" value="false">
                   <!--Grid row-->
                   <div class="row ">
 
@@ -197,7 +200,7 @@
                 </form>
 
                 <div class="text-center text-md-left p-2">
-                  <a class="btn btn-primary" onclick="validateForm();">Wyślij wiadmość</a>
+                  <button type="submit" onclick="validateForm();" class="btn btn-primary">Wyślij wiadomość</button>
                 </div>
                 <div class="status"></div>
               </div>
